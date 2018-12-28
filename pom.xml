@@ -101,6 +101,13 @@
                                 <java.source>${maven.compiler.source}</java.source>
                                 <java.target>${maven.compiler.target}</java.target>
                             </additionalProperties>
+                            <archive>
+                                <manifest>
+                                    <!-- Jar file entry point -->
+                                    <addClasspath>true</addClasspath>
+                                    <mainClass>vn.youngcoder.SpringBootJwtApplication</mainClass>
+                                </manifest>
+                            </archive>
                         </configuration>
                     </execution>
                 </executions>
