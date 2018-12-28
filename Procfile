@@ -1,1 +1,1 @@
-web: java -jar $JAVA_OPTS target/*.war --server.port=$PORT $JAR_OPTS
+web: java -jar target/AuthenJwt-1.0.jar
